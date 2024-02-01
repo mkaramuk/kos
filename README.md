@@ -1,0 +1,3 @@
+Main repository of [KOS](https://github.com/tracikkaynakplatform/kos) project.
+
+Coming soon...
