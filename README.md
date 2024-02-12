@@ -1,5 +1,10 @@
 # KOS - Kubernetes Orchestration System
 
+<p style="display: flex; align-items: center; flex-direction: column; gap: 10px;" align="center">
+  <img style="border-radius: 10px" width="460" height="300" src="./assets/ss-1.png">
+  <i>Screenshot of KOS Management Cluster screen</i>
+</p>
+
 ## Introduction
 
 KOS is a set of client/server utilities aimed at easing (multiple) Kubernetes cluster generation and management. It utilizes the [cluster-api](https://cluster-api.sigs.k8s.io/) project for this purpose and supports all of its provider backends (Currently only Docker is available).
@@ -16,11 +21,25 @@ You just need to provide a [kubeconfig](https://kubernetes.io/docs/concepts/conf
 
 ## Supported providers
 
--   [+] Docker
+-   [x] Docker
 -   [ ] GCP
 -   [ ] AWS
 -   [ ] Azure
 -   [ ] Openstack
+
+## Run from source
+
+First of all you have to install dependencies with your package manager (`yarn`, `npm` or `pnpm`);
+
+```shell
+yarn install
+```
+
+Then run the `start` script;
+
+```shell
+yarn start
+```
 
 ## Contributing
 
@@ -30,6 +49,6 @@ We could use a little help! According to our current roadmap, we aim to complete
 
 The following institutions and organizations support the development of the KOS project in various ways.
 
-| Logo                                                 | Name                        | Support                                            |
-| ---------------------------------------------------- | --------------------------- | -------------------------------------------------- |
-| <img src="./assets/supporters/takp.png" width="100"> | Turkey Open Source Platform | Providing support for access to AWS cloud services |
+| Logo                                                 | Name                        | Support                                             |
+| ---------------------------------------------------- | --------------------------- | --------------------------------------------------- |
+| <img src="./assets/supporters/takp.png" width="100"> | Turkey Open Source Platform | Providing support for access to AWS cloud services. |
