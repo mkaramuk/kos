@@ -1,7 +1,9 @@
 # KOS - Kubernetes Orchestration System
 
-<p style="display: flex; align-items: center; flex-direction: column; gap: 10px;" align="center">
+<p align="center">
   <img style="border-radius: 10px" width="460" height="300" src="./assets/ss-1.png">
+</p>
+<p align="center">
   <i>Screenshot of KOS Management Cluster screen</i>
 </p>
 
